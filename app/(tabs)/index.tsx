@@ -63,25 +63,46 @@ export default function HomeScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#fff' },
-  content: { flex: 1, paddingTop: 60, paddingHorizontal: 20 },
-  title: { fontSize: 24, fontWeight: 'bold', textAlign: 'center', marginBottom: 30 },
-  scrollView: { marginBottom: 40, height: 120 },
+  container: {
+    flex: 1,
+    backgroundColor: '#ffffff', // orange background like the image
+  },
+  content: {
+    flex: 1,
+    paddingTop: 60,
+    paddingHorizontal: 20,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginBottom: 30,
+    color: '#2D2D2D',
+  },
+  scrollView: {
+    marginBottom: 40,
+    height: 120,
+  },
   imageContainer: {
     width: 100,
     height: 100,
     marginRight: 15,
-    backgroundColor: '#f0f0f0',
+    backgroundColor: '#e4b038', // softer orange card
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
   },
-  languageImage: { width: 70, height: 70 },
+  languageImage: {
+    width: 70,
+    height: 70,
+  },
   input: {
     borderWidth: 1,
-    borderColor: '#ccc',
+    borderColor: '#0b0600',
     borderRadius: 8,
     padding: 15,
     height: 50,
+    backgroundColor: '#020100',
   },
 });
+
