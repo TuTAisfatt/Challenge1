@@ -68,7 +68,7 @@ export default function App() {
           placeholder="What is your favorite programming language from the list above?"
           value={favoriteLanguage}
           onChangeText={setFavoriteLanguage}
-          placeholderTextColor="#888"
+          placeholderTextColor="#e6a038"
         />
       </View>
     </SafeAreaView>
@@ -104,12 +104,12 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     marginRight: 15,
-    backgroundColor: '#f0f0f0',
+    backgroundColor: '#df982d',
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
     borderWidth: 1,
-    borderColor: '#e0e0e0',
+    borderColor: '#000000',
   },
   languageImage: {
     width: 70,
@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
     padding: 15,
     fontSize: 16,
     borderWidth: 1,
-    borderColor: '#ccc',
+    borderColor: '#ddb834',
     height: 50,
   },
 });
